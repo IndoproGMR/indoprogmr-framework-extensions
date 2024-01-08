@@ -1,6 +1,7 @@
 {
     "name": "indoprogmr-framework",
-    "displayName": "IndoproGMR_Framework",
+    "displayName": "IndoproGMR_Framework-extensions",
+    "publisher": "indoprogmr",
     "description": "code Snippets for IndoproGMR Framework",
     "version": "0.0.1",
     "engines": {

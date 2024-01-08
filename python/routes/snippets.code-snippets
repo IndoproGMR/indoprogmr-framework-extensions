@@ -1,0 +1,35 @@
+{
+    "Route Get": {
+        "prefix": "IFRG",
+        "body": [
+            "@router.get(\"/\")",
+            "def method_name():",
+            "    return {\"message\": \"hello world\"}"
+        ]
+    },
+    "Route Post": {
+        "prefix": "IFRP",
+        "body": [
+            "@router.post(\"/\")",
+            "def method_name():",
+            "    return {\"message\": \"hello world\"}"
+        ]
+    },
+
+    "async Route Get": {
+        "prefix": "IFRGA",
+        "body": [
+            "@router.get(\"/\")",
+            "async def method_name():",
+            "    return {\"message\": \"hello world\"}"
+        ]
+    },
+    "async Route Post": {
+        "prefix": "IFRPA",
+        "body": [
+            "@router.post(\"/\")",
+            "async def method_name():",
+            "    return {\"message\": \"hello world\"}"
+        ]
+    }
+}

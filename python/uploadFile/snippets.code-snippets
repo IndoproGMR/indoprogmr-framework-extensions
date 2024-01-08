@@ -1,0 +1,24 @@
+{
+    "Upload File init": {
+        "prefix": "IFRUPLInit",
+        "body": [
+            "from fastapi import UploadFile",
+            "from APP.config.upload import saveFile"
+        ],
+        "description": "Setup for Upload File"
+    },
+
+    "Upload File": {
+        "prefix": "IFRUPL",
+        "body": [
+            "@router.post(\"/\")",
+            "async def method_Upload(file: UploadFile):",
+            "    status, saved_filename = await saveFile(file)",
+            "    if status:",
+            "        return {\"filename\": saved_filename}",
+            "    else:",
+            "        return {\"detail\":\"Upload Failed\"}"
+        ],
+        "description": "Upload File Method"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "cacheInit": {
+        "prefix": "IFCaInit",
+        "body": [
+            "from APP.config.cachemanager import create_cache",
+            "",
+            "cache_manager = create_cache()"
+        ],
+        "description": "Setup cache manager"
+    },
+    "cacheGet": {
+        "prefix": "IFCaGet",
+        "body": ["cache_manager.cache_get('${1:key}')"],
+        "description": "Get cache value"
+    },
+    "cacheSet": {
+        "prefix": "IFCaSet",
+        "body": ["cache_manager.cache_set('${1:key}', ${2:value})"],
+        "description": "Set cache value"
+    },
+    "cacheDelete": {
+        "prefix": "IFCaDel",
+        "body": ["cache_manager.cache_delete('${1:key}')"],
+        "description": "Delete cache value"
+    }
+}

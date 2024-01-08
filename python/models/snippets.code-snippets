@@ -1,0 +1,16 @@
+{
+    "Model method": {
+        "prefix": "IFMODEL",
+        "body": [
+            "def ${1:Demo_Model}():",
+            "    db = connect_to_mysql()",
+            "    if db:",
+            "        query = \"$2\"",
+            "        ",
+            "        results = getDatabyQuery(db, query)",
+            "        ",
+            "        return results"
+        ],
+        "description": "Model method"
+    }
+}

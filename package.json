@@ -1,0 +1,36 @@
+{
+    "name": "indoprogmr-framework",
+    "displayName": "IndoproGMR_Framework",
+    "description": "code Snippets for IndoproGMR Framework",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.85.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "python",
+                "path": "./python/basemodel/snippets.code-snippets"
+            },
+            {
+                "language": "python",
+                "path": "./python/cache/snippets.code-snippets"
+            },
+            {
+                "language": "python",
+                "path": "./python/routes/snippets.code-snippets"
+            },
+            {
+                "language": "python",
+                "path": "./python/uploadFile/snippets.code-snippets"
+            },
+            {
+                "language": "python",
+                "path": "./python/models/snippets.code-snippets"
+            }
+        ]
+    }
+}

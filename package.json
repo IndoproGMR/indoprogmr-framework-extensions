@@ -3,7 +3,7 @@
     "displayName": "IndoproGMR_Framework-extensions",
     "publisher": "indoprogmr",
     "description": "code Snippets for IndoproGMR Framework",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "engines": {
         "vscode": "^1.85.0"
     },
@@ -35,6 +35,10 @@
             {
                 "language": "python",
                 "path": "./python/models/snippets.code-snippets"
+            },
+            {
+                "language": "python",
+                "path": "./python/views/snippets.code-snippets"
             }
         ]
     }

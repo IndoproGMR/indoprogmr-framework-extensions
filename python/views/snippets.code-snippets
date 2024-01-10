@@ -1,0 +1,11 @@
+{
+    "Upload File": {
+        "prefix": "IFViews",
+        "body": [
+            "@router.get(\"/$1\",response_class=HTMLResponse)",
+            "async def method_html(request: Request):",
+            "    return view(request,\"views/index.html\")"
+        ],
+        "description": "setup for views"
+    }
+}

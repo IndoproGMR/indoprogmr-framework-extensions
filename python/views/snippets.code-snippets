@@ -1,11 +1,20 @@
 {
-    "Upload File": {
-        "prefix": "IFViews",
+    "View get": {
+        "prefix": "IFRGView",
         "body": [
             "@router.get(\"/$1\",response_class=HTMLResponse)",
             "async def method_html(request: Request):",
             "    return view(request,\"views/index.html\")"
         ],
-        "description": "setup for views"
+        "description": "setup for views get"
+    },
+    "View post": {
+        "prefix": "IFRPView",
+        "body": [
+            "@router.post(\"/$1\",response_class=HTMLResponse)",
+            "async def method_html(request: Request):",
+            "    return view(request,\"views/index.html\")"
+        ],
+        "description": "setup for views post"
     }
 }

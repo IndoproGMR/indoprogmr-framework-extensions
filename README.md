@@ -10,6 +10,12 @@ https://github.com/IndoproGMR/IndoproGMR_Framework
 
 ## syntax
 ### route
+#### setup
+untuk setup route
+```
+IFRInit
+```
+
 #### Get
 reguler
 ```
@@ -56,4 +62,13 @@ IFRUPLInit
 Untuk menerima file
 ```
 IFRUPL
+```
+## Views
+Untuk memanggil view
+```
+IFRGView
+```
+Untuk memanggil view untuk post
+```
+IFRPView
 ```
